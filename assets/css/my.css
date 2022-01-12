@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Spline+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Moon+Dance&family=Signika+Negative:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -113,6 +114,7 @@ header{
 }
 .img img{
     margin-top: -17px;
+    overflow: scroll;
 }
 
 /* about */
@@ -140,7 +142,7 @@ hr{
    box-shadow: black 1px 3px 127px 1px;
 }
 .bio{
-    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     margin-top: 60px;
     font-size: 20px;
 }
@@ -162,6 +164,8 @@ hr{
 
 .cvd-btn a{
     color:white;
+    font-weight: bold;
+    font-size: 17px;
 }
 .cvd-btn:hover{
     background-color: white;
@@ -177,6 +181,8 @@ hr{
 }
 .pj-btn a{
     color: blue;
+    font-weight: bold;
+    font-size: 17px;
 }
 .pj-btn:hover{
     background-color: #060065;
@@ -261,6 +267,7 @@ form-btn button{
 .credit h5{
     text-align: center;
     color: white;
+    padding-top: 10px;
 }
 
 .con-me a{
@@ -276,7 +283,7 @@ form-btn button{
 .credit p{
     color: white;
     text-align: center;
-    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     margin-top: 20px;
 }
 
