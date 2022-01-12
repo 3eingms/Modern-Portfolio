@@ -256,14 +256,13 @@ form-btn button{
 .footer{
     background-color: #060065;
     box-shadow: black 0px -1px 7px -1px;
+    height: 80px;
 }
 .credit h5{
     text-align: center;
     color: white;
 }
-.con-me{
-    
-}
+
 .con-me a{
     text-align: center;
    color: white;
@@ -274,7 +273,12 @@ form-btn button{
     color: rgb(189, 181, 181);
 }
 
-
+.credit p{
+    color: white;
+    text-align: center;
+    font-family: 'Spline Sans', sans-serif;
+    margin-top: 20px;
+}
 
 
 
@@ -343,12 +347,22 @@ form-btn button{
         margin-bottom: 30px;
     }
 
+    .bio{
+        text-align: center;
+    }
+
 
 }
 
 @media screen and (max-width:414px) {
     .img img{
       max-width: 100% !important ;
+    }
+    .footer h5{
+        font-size: 15px;
+    }
+    .bio{
+        text-align: center;
     }
   
 }
