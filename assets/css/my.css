@@ -159,7 +159,7 @@ hr{
 .cvd-btn{
     background-color: #060065;
     border: 2px solid white;
-    box-shadow: black 2px 3px 7px 1px;
+    box-shadow: black 0px 2px 9px 1px;;
 }
 
 .cvd-btn a{
@@ -177,7 +177,7 @@ hr{
 .pj-btn{
     background-color: white;
     border: 2px solid blue;
-    box-shadow: black 2px 3px 7px 1px;
+    box-shadow: black 0px 2px 9px 1px;;
 }
 .pj-btn a{
     color: blue;
@@ -199,8 +199,12 @@ hr{
     margin-bottom: 70px;
 }
 .skill-type{
-    margin-left: 20px;
-    margin-top: 70px;
+    /* margin-left: 20px;
+    margin-top: 70px; */
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
 }
 .html,.css,.js,.jq,.bootstrap{
     background-color: #44408d;
@@ -225,14 +229,21 @@ hr{
     margin-bottom: 50px;
 }
 .project-type{
-    margin-top: 70px;
-    margin-bottom: 100px;
+    /* margin-top: 70px; */
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+   
+  
 }
-.akbar-motors,.ms-found{
+.akbar-motors,.ms-found,.portfolio,.music-player,.ms-fo{
     background-color: #44408d;
     box-shadow: black 4px 1px 9px -4px;
     padding: 40px;
     border-radius: 37px;
+    margin-bottom: 30px;
 }
 .project-type i{
     color: #e1cd40;
@@ -248,6 +259,8 @@ hr{
 form{
     font-family: 'Spline Sans', sans-serif;
     margin-bottom: 50px;
+    border: 2px dotted #44408d;
+    padding: 30px;
 }
 form-btn button{
     padding: 0 5px;
@@ -256,6 +269,26 @@ form-btn button{
 #sub-btn:hover{
     box-shadow: black 2px 3px 6px 0px;
 }
+
+.send{
+    margin-bottom: 30px;
+}
+
+/* connect */
+.connect{
+    margin-top: 145px;
+}
+.con-me a{
+    text-align: center;
+   color: white;
+   margin-right: 20px;
+}
+
+.con-me a:hover{
+    color: rgb(189, 181, 181);
+}
+
+
 
 
 /* footer */
@@ -270,15 +303,6 @@ form-btn button{
     padding-top: 10px;
 }
 
-.con-me a{
-    text-align: center;
-   color: white;
-   margin-right: 20px;
-}
-
-.con-me a:hover{
-    color: rgb(189, 181, 181);
-}
 
 .credit p{
     color: white;
