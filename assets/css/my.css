@@ -298,15 +298,19 @@ hr{
 form{
     font-family: 'Spline Sans', sans-serif;
     margin-bottom: 50px;
-    border: 2px dotted #44408d;
+    border-radius: 4px;
     padding: 20px;
+    background: #819cff;
+    background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    background: linear-gradient(to bottom, #000f7a, #060938);
 }
 form-btn button{
     padding: 0 5px;
-    
+    transition: 0.4s ease;
 }
 #sub-btn:hover{
     box-shadow: black 2px 3px 6px 0px;
+    transition: 0.4s ease;
 }
 
 .send{
