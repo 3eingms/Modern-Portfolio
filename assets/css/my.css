@@ -112,7 +112,16 @@ header{
     font-family: 'Kanit', sans-serif;
     font-weight: bolder;
     font-size: 45px;
-    color: #d3d3d3;
+    /* color: #d3d3d3; */
+    background: #060065;  
+    background: -webkit-linear-gradient(to right, #fff, #fff); 
+    background: linear-gradient(to top, #4A569D, #fff); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
 }
 .ms{
     font-size:x-large !important;
@@ -168,7 +177,8 @@ hr{
 .cvd-btn{
     background-color: #060065;
     border: 2px solid white;
-    box-shadow: black 0px 2px 9px 1px;;
+    box-shadow: black 0px 2px 9px 1px;
+    transition: 0.3s ease;
 }
 
 .cvd-btn a{
@@ -178,6 +188,7 @@ hr{
 }
 .cvd-btn:hover{
     background-color: white;
+    transition: 0.3s ease;
 }
 .cvd-btn a:hover{
     color: blue;
@@ -185,8 +196,9 @@ hr{
 
 .pj-btn{
     background-color: white;
-    border: 2px solid blue;
-    box-shadow: black 0px 2px 9px 1px;;
+    border: 2px solid #060065;
+    box-shadow: black 0px 2px 9px 1px;
+    transition: 0.3s ease;
 }
 .pj-btn a{
     color: blue;
@@ -196,6 +208,7 @@ hr{
 .pj-btn:hover{
     background-color: #060065;
     border: 2px solid white;
+    transition: 0.3s ease;
 }
 .pj-btn a:hover{
     color: white;
@@ -222,6 +235,11 @@ hr{
     border-radius: 37px;
     margin-bottom: 30px;
     margin-right: 20px;
+    transition: 0.4s ease;
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .skill-type i{
     font-size: 30px;
@@ -231,6 +249,13 @@ hr{
     color:  white;
     margin-top: 5px;
 }
+
+#skill-hover:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
 
 
 /* project */
@@ -252,6 +277,12 @@ hr{
     border-radius: 37px;
     margin-bottom: 30px;
     margin-right: 20px;
+    transition: 0.4s ease;
+    background: #1488CC;  
+    background: -webkit-linear-gradient(to top, #2B32B2, #1488CC);  
+    background: linear-gradient(to top, #2B32B2, #1488CC);
+    
+
 }
 .project-type i{
     color: #e1cd40;
@@ -323,7 +354,10 @@ form-btn button{
     text-align: center;
     font-family: 'Signika Negative', sans-serif;
     margin-top: 20px;
+    opacity: 60%;
+    font-size: 14px;
 }
+
 
 
 
@@ -359,7 +393,7 @@ form-btn button{
         border-bottom: 10px solid #44408d;
         position: absolute;
         top: -10px;
-        right: 10px;
+        right: 18px;
     }
    .navigation-menu.active{
         display: block;
