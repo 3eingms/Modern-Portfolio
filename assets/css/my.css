@@ -29,9 +29,9 @@ header{
     padding: 2px 0;
 }
 .logo img{
-    height: 112px;
-    margin-top: -20px;
     border-radius: 50px;
+    width: 94px;
+    margin: -6px auto;
 }
 .navigation-menu{
     font-family: 'Spline Sans', sans-serif;
@@ -163,6 +163,7 @@ hr{
     font-family: 'Signika Negative', sans-serif;
     margin-top: 60px;
     font-size: 20px;
+    text-align: center;
 }
 
 .about-btn{
