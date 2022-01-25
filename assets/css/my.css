@@ -178,7 +178,6 @@ hr{
 .cvd-btn{
     background-color: #060065;
     border: 2px solid white;
-    box-shadow: black 0px 2px 9px 1px;
     transition: 0.3s ease;
 }
 
@@ -190,6 +189,7 @@ hr{
 .cvd-btn:hover{
     background-color: white;
     transition: 0.3s ease;
+    box-shadow: black 0px 2px 9px 1px;
 }
 .cvd-btn a:hover{
     color: blue;
@@ -198,7 +198,6 @@ hr{
 .pj-btn{
     background-color: white;
     border: 2px solid #060065;
-    box-shadow: black 0px 2px 9px 1px;
     transition: 0.3s ease;
 }
 .pj-btn a{
@@ -210,6 +209,7 @@ hr{
     background-color: #060065;
     border: 2px solid white;
     transition: 0.3s ease;
+    box-shadow: black 0px 2px 9px 1px;
 }
 .pj-btn a:hover{
     color: white;
